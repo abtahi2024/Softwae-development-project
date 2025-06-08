@@ -1,0 +1,106 @@
+.linkup{
+    color:#bc05aa;
+    font-size:60px;
+    text-align: center;
+    text-shadow:2px 2px 5px rgba(154, 4, 208, 0.95);
+    font-style:italic;
+}
+#descrip{
+    color: rgb(255, 0, 0);
+    font-size:xx-large;
+    font-weight: 600;
+    font-weight: bold;
+    text-align: center;
+    /* font-style: italic; */
+    font-family: "Kapakana", cursive;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+}
+
+.box{
+    color:darkviolet;
+    width: 300px;
+    font-weight: bolder;
+    border: 2px solid darkred;
+    text-align: center;
+    /* padding: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin:auto;
+    font-size:x-large;
+}
+
+.InLink1{
+    display: inline;
+    color: chocolate;
+}
+.InLink2{
+    display: inline;
+    color: purple;
+}
+
+.box1-all{
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+}
+.box1{
+    border: 2px solid red;
+    position: relative;
+    left: 50px;
+    background-color: green;
+}
+.box2{
+    border: 2px solid blue;
+}
+.red{
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.locationcenter{
+    margin-top: 20px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.line1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid purple;
+}
+.line2{
+    width: 300px;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+
+.banner{
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    color:goldenrod;
+    border: 2px solid darkblue;
+    margin: auto;
+    background-image: url('bg.avif'),linear-gradient(45deg,rgb(3, 11, 229),rgb(0, 0, 0));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+}
+.txt{
+    color:rgb(92, 92, 225);
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
