@@ -1,0 +1,14 @@
+.banner-container{
+    height: 80vh;
+    background-image: url(bg3.jpg);
+}
+
+.banner-img{
+    width: 210px;
+    height: 700px;
+}
+.form-img img{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 500px;
+}
