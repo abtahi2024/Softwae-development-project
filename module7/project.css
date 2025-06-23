@@ -1,0 +1,31 @@
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-container{
+    width: 30%;
+    box-shadow: 1px 1px 10px black;
+    margin:auto;
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.card{
+    border: 1px solid gray;
+    padding: 15px;
+}
+.img-card{
+    width: 80px;
+}
+
+.cart-info{
+    display: flex;
+    justify-content: space-around;
+}
